@@ -57,7 +57,7 @@ export default function WeatherApp() {
       <div className="flex items-center justify-center flex-col max-sm:mt-24">
         <img src={weatherData.icon} alt="icon" className="w-28 h-28" />
         <p className="text-[#fff] text-[80px] leading-[60px] ">
-          {weatherData.temperature} ° C
+          {weatherData.temperature} °C
         </p>
         <p className="text-[#fff] text-[40px]">{weatherData.location}</p>
       </div>
