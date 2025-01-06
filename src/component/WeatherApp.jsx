@@ -61,7 +61,7 @@ export default function WeatherApp() {
         </p>
         <p className="text-[#fff] text-[40px]">{weatherData.location}</p>
       </div>
-      <div className="flex flex-row space-x-[85px] mt-8 max-sm:mt-28 text-[#fff]">
+      <div className="flex flex-row justify-center items-center space-x-[85px] mt-8 max-sm:mt-28 text-[#fff]">
         <div className="flex flex-row space-x-3">
           <img src={humidity} className="w-[26px] h-[26px] mt-2" alt="" />
           <div>
